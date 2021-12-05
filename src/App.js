@@ -16,11 +16,12 @@ function App() {
     <>
     <Router>
     <Navigationbar/>
-    <Routes>
+    <Home/>
+    {/* <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/Trending" element={<Trend/>}/>
       <Route path="/About" element={<About/>}/>
-    </Routes>
+    </Routes> */}
     <Footer/>
     </Router>
     </>
